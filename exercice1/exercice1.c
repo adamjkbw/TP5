@@ -39,6 +39,7 @@ int recherche_dichotomique(Medicament tab[], char nom[50])
     int trouve = 0;
     int droite = 80;
     int gauche = 0;
+    int mid = 40;
 
     while (trouve == 0)
     {
@@ -47,8 +48,7 @@ int recherche_dichotomique(Medicament tab[], char nom[50])
         {
             trouve == 1;
         }
-        else if ()
-    }
+        }
 
     return mid;
 }
