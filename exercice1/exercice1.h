@@ -10,5 +10,6 @@ typedef struct
 void echange(Medicament *n1, Medicament *n2);
 void saisir_tableau(Medicament tab[], int n);
 void tri_bulles(Medicament tab[]);
+int recherche_dichotomique(Medicament tab[], char nom[50]);
 
 #endif

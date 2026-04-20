@@ -33,3 +33,22 @@ void tri_bulles(Medicament tab[])
         }
     }
 }
+
+int recherche_dichotomique(Medicament tab[], char nom[50])
+{
+    int trouve = 0;
+    int droite = 80;
+    int gauche = 0;
+
+    while (trouve == 0)
+    {
+        int mid = (gauche + droite) / 2;
+        if (tab[mid].nom == nom)
+        {
+            trouve == 1;
+        }
+        else if ()
+    }
+
+    return mid;
+}
